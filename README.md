@@ -46,7 +46,8 @@ Example configuration:
 magic_areas:
   living_room:
     automatic_lights:
-      - light.living_room_lamp
+      entities: 
+        - light.living_room_lamp
     include_entities:
       - binary_sensor.motion_sensor_lr_1
       - binary_sensor.motion_sensor_lr_2
